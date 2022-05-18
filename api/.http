@@ -1,0 +1,41 @@
+@api = http://localhost:3000
+@firstAssignment = /first-assignment
+@secondAssignment = /second-assignment
+@thirdAssignment = /third-assignment
+@fourthAssignment = /fourth-assignment
+@fifthAssignment = /fifth-assignment
+@sixthAssignment = /sixth-assignment
+@seventhAssignment = /seventh-assignment
+
+### First Assignment
+GET {{api}}{{firstAssignment}}
+
+### Second Assignment
+GET {{api}}{{secondAssignment}}
+
+### Third Assignment
+GET {{api}}{{thirdAssignment}}
+
+### Fourth Assignment
+GET {{api}}{{fourthAssignment}}
+
+### Fifth Assignment
+GET {{api}}{{fifthAssignment}}
+
+### Sixth Assignment - Listener (This is the one we're gonna use)
+GET {{api}}{{sixthAssignment}}/listener
+### Sixth Assignment - Reader (This one is not necesary be called by us, the other route calls it)
+GET {{api}}{{sixthAssignment}}/reader
+
+@folder = 1
+@file = 2
+@value = Burned data...
+### Seventh Assignment
+### Return the entire files
+GET {{api}}{{seventhAssignment}}/getFiles
+### Create a new file
+GET {{api}}{{seventhAssignment}}/createFile?folder={{folder}}&file={{file}}&value={{value}}
+### Delete a file
+GET {{api}}{{seventhAssignment}}/deleteFile?folder={{folder}}&file={{file}}
+### Format all the system
+GET {{api}}{{seventhAssignment}}/formatSystem
