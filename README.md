@@ -19,7 +19,11 @@ To run every application, we can open a browser and put the entiere url for each
 
 After tell this, if you are using Visual Studio Code, I really suggest to install and use the extension ' REST Client ', this extension allow us make REST petitions in VSC, with no need of a browser.
 
+![image](https://user-images.githubusercontent.com/72165495/169180267-5d448f86-ae53-4000-85a5-8bcf11324aa6.png)
+
 So, if you use the extension, we can use the file ' api/.http '. Here we're gonna find some configuration on the endpoints. We just need to click on ' Send request ' of each endpoint and we are gonna see the execution.
+
+![image](https://user-images.githubusercontent.com/72165495/169180355-0c29def5-378e-44dc-bc0f-be73f10ce13c.png)
 
 ### About the Sixth Assignment endpoints
 
@@ -43,6 +47,8 @@ And so, on the ' /deleteFile ' we do not need the value, so goes like this:
  *      /deleteFile?folder={ number }&file={ number }
 
 ##### Note: If you are also using the REST Client extension, you will see some variables, this ones are the folder, file, and value parameters, soy you need to edit this varables enstead of got to every endpoint and make changes.
+
+![image](https://user-images.githubusercontent.com/72165495/169180424-864ec929-17c7-4cae-8c09-b29c5d797980.png)
 
 ###
         Team members:
